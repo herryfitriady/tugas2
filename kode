@@ -28,7 +28,7 @@ PROCESS_INFORMATION pi;
   /* parent will wait for the child to complate */
   WaitForSingleObject(pi.hProcess, INFINITE);
   printf("Child Complate");
-  
+  printf("HerryFitriady-14201226");
   /* close handles */
   CloseHandle(pi.hProcess) ;
   CloseHandle(pi.hThread) ;
